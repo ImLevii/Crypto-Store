@@ -33,7 +33,7 @@ body {
   position: absolute;
   content: "";
   background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.623)),
-    url("/bg.png");
+    url("https://i.gyazo.com/3e8eb1d9d7574fd1c7642246c6b8887a.jpg");
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
