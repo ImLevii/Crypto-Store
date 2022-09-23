@@ -175,7 +175,7 @@ const Home: NextPage<{ hasTransaction: boolean }> = ({ hasTransaction }) => {
 
   return (
     <div className="w-full h-full flex flex-row justify-center justify-items-center items-center overflow-hidden relative">
-      <Header title="Crypto Store Exchange" />
+      <Header title="HcRaid | Crypto Store Exchange" />
       <div className="bgImage"></div>
       <form
         action="/api/createTransaction"
@@ -331,6 +331,12 @@ const Home: NextPage<{ hasTransaction: boolean }> = ({ hasTransaction }) => {
         </button>
       </form>
       <div className="ml-44 z-0 text-center text-white hidden xl:flex flex-col justify-center justify-items-center items-center self-center">
+        <img
+          src="https://cdn.craftingstore.net/rPPmDHlLQ1/a31ff167b6d8aa5b6c3f638275f920b6/mlz198armkkjimlg2ajr.png"
+          width="450"
+          height="200"
+        ></img>
+
         <span className="font-bold text-3xl">Purchase using crypto</span>
         <p className="mt-3 text-md text-gray-400 block w-72 text-center">
           A fast and secure way to purchase anything on the store using{" "}
@@ -350,11 +356,11 @@ const Home: NextPage<{ hasTransaction: boolean }> = ({ hasTransaction }) => {
           ))}
         </div>
       </div>
-      <footer className="select-none z-0 absolute bottom-5 font-medium opacity-50 text-gray-800 flex flex-row justify-center items-center justify-items-center">
+      <footer className="select-none z-0 absolute bottom-5 font-medium opacity-50 text-gray-400 flex flex-row justify-center items-center justify-items-center">
         <FontAwesomeIcon className="text-xl lg:text-4xl" icon={faCopyright} />
         <div className="flex flex-col">
           <span className="ml-4 text-sm md:text-md">
-            COPYRIGHT {new Date().getFullYear()} <b>Liam</b>
+            COPYRIGHT {new Date().getFullYear()} <b>HCRAID</b>
             <br />
             WE ARE NOT AFFILIATED WITH MOJANG AB.
           </span>
